@@ -23,7 +23,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onBack }) => {
       name: "Raj Yadav",
       title: "Founder & CEO",
       image: "/IMG_20250702_214716cgdfg copy.jpg",
-      bio: "With over 8 years of experience in digital marketing and business strategy, Alex leads BoostFlick's vision of transforming businesses through innovative digital solutions. Previously worked at top-tier agencies and helped scale multiple startups.",
+      bio: "With over 8 years of experience in digital marketing and business strategy, Raj leads BoostFlick's vision of transforming businesses through innovative digital solutions. Previously worked at top-tier agencies and helped scale multiple startups.",
       expertise: ["Digital Strategy", "Business Development", "Team Leadership", "Client Relations"],
       social: {
         linkedin: "https://www.linkedin.com/company/boostflick/about/",
