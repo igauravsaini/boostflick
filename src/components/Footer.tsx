@@ -16,7 +16,7 @@ const Footer: React.FC<FooterProps> = ({ onAboutClick }) => {
   const socialLinks = [
     { icon: <Facebook className="h-5 w-5" />, href: "https://www.facebook.com/profile.php?id=61562220029173", label: "Facebook" },
     { icon: <XIcon className="h-5 w-5" />, href: "https://x.com/boostflick", label: "X (Twitter)" },
-    { icon: <Instagram className="h-5 w-5" />, href: "https://www.instagram.com/boostflick_/", label: "Instagram" },
+    { icon: <Instagram className="h-5 w-5" />, href: "https://www.instagram.com/boostflick.agency/", label: "Instagram" },
     { icon: <Youtube className="h-5 w-5" />, href: "https://www.youtube.com/@growwithrajyadav", label: "YouTube" },
     { icon: <Linkedin className="h-5 w-5" />, href: "https://www.linkedin.com/in/gaurav-saini-349711338/?originalSubdomain=in", label: "LinkedIn" },
     { icon: <Github className="h-5 w-5" />, href: "https://github.com/IGAURAVSAINI12", label: "GitHub" }
