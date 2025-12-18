@@ -44,7 +44,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onBack }) => {
         twitter: "https://x.com/GauravSaini8014",
       
         instagram: "https://www.instagram.com/boostflick.agency/",
-        whatsapp: "919368946391"
+        whatsapp: "916396868450"
       }
     }
   ];
