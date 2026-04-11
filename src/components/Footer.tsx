@@ -57,20 +57,23 @@ const Footer: React.FC<FooterProps> = ({ onAboutClick }) => {
           <div className="col-span-1 lg:col-span-2">
             <button 
               onClick={scrollToTop}
-              className="flex items-center space-x-3 mb-4 group cursor-pointer"
+              className="flex items-center space-x-3 group cursor-pointer"
+          >
+            <div
+              className="w-10 h-10 rounded-full overflow-hidden p-[2px] group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-2xl animate-float relative flex items-center justify-center"
+              style={{ background: '#111' }}
             >
-              <div className="w-12 h-12 rounded-full overflow-hidden group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-2xl animate-float relative">
-                <img 
-                  src="/WhatsApp Image 2025-07-02 at 14.31.32_8d61cef6 (1).jpg" 
-                  alt="BoostFlick Logo" 
-                  className="w-full h-full object-cover object-center"
-                />
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Boostflick
-              </span>
-            </button>
+              <img 
+                src="/logo.png" 
+                alt="BoostFlick Logo" 
+                className="w-[100%] h-[100%] object-contain translate-y-[3%]"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-gradient">
+              Boostflick
+            </span>
+          </button>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
               Accelerating digital success for businesses worldwide. We transform ideas into powerful digital solutions 
               that drive growth and maximize potential.

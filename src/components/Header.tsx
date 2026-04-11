@@ -70,11 +70,14 @@ const Header: React.FC<HeaderProps> = ({ onAboutClick }) => {
             onClick={handleLogoClick}
             className="flex items-center space-x-3 group cursor-pointer"
           >
-            <div className="w-14 h-14 rounded-full overflow-hidden group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-2xl animate-float relative">
+            <div
+              className="w-10 h-10 rounded-full overflow-hidden p-[2px] group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-2xl animate-float relative flex items-center justify-center"
+              style={{ background: '#111' }}
+            >
               <img 
-                src="/WhatsApp Image 2025-07-02 at 14.31.32_8d61cef6 (1).jpg" 
+                src="/logo.png" 
                 alt="BoostFlick Logo" 
-                className="w-full h-full object-cover object-center"
+                className="w-[100%] h-[100%] object-contain translate-y-[3%]"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
