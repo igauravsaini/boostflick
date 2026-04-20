@@ -48,7 +48,7 @@ const Footer: React.FC<FooterProps> = ({ onAboutClick }) => {
     <footer className="bg-gray-900 text-white py-16 relative overflow-hidden">
       {/* Animated Background */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mix-blend-multiply filter blur-3xl animate-float"></div>
+        <div className="absolute top-0 left-0 logow-64 h-64 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full mix-blend-multiply filter blur-3xl animate-float"></div>
         <div className="absolute bottom-0 right-0 w-64 h-64 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full mix-blend-multiply filter blur-3xl animate-float-reverse"></div>
       </div>
 
@@ -60,7 +60,7 @@ const Footer: React.FC<FooterProps> = ({ onAboutClick }) => {
               className="flex items-center space-x-3 group cursor-pointer"
           >
             <div
-              className="w-10 h-10 rounded-full overflow-hidden p-[2px] group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-2xl animate-float relative flex items-center justify-center"
+              className="w-[55px] h-[55px] rounded-full overflow-hidden p-[2px] group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-2xl  relative flex items-center justify-center"
               style={{ background: '#111' }}
             >
               <img 

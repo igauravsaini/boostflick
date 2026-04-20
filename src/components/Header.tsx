@@ -71,7 +71,7 @@ const Header: React.FC<HeaderProps> = ({ onAboutClick }) => {
             className="flex items-center space-x-3 group cursor-pointer"
           >
             <div
-              className="w-10 h-10 rounded-full overflow-hidden p-[2px] group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-2xl animate-float relative flex items-center justify-center"
+              className="w-[75px] h-[75px] rounded-full overflow-hidden p-[2px] group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-2xl  relative flex items-center justify-center"
               style={{ background: '#111' }}
             >
               <img 
